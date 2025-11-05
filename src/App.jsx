@@ -42,7 +42,7 @@ function App() {
       setLoading(false);
     }
   };
-
+{/*Function for report generation */}
   const generateReport = async () => {
     if (!result || !file) return alert("No prediction to generate report for!");
     const doc = new jsPDF("p", "mm", "a4");
@@ -94,7 +94,7 @@ function App() {
 
 
       <div className="w-full max-w-6xl flex flex-col md:flex-row gap-8 mt-6">
-        
+        {/*Patient details form*/ }
       <PatientDetails
         patientName={patientName}
         setPatientName={setPatientName}
@@ -105,8 +105,8 @@ function App() {
         patientId={patientId}
         setPatientId={setPatientId}
       />
-        {/* Left Column: Upload & Predict */}
-        <div className="md:w-1/2 bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg flex flex-col items-center transition-transform transform hover:scale-105">
+        {/* Upload & Predict  */}
+        <div className="md:w-1/2 bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg flex flex-col items-center transition-transform transform ">
           <input
             type="file"
             accept="image/*"

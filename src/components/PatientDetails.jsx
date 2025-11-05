@@ -1,4 +1,4 @@
-import React from "react";
+
 import { FaUser, FaCalendarAlt, FaVenusMars, FaIdBadge } from "react-icons/fa";
 
 const PatientDetails = ({
@@ -12,7 +12,7 @@ const PatientDetails = ({
   setPatientId,
 }) => {
   return (
-    <div className="w-full max-w-xl bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg transition-transform transform hover:scale-105">
+    <div className="w-full max-w-xl bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg transition-transform transform ">
       <h2 className="text-2xl font-bold text-gray-800 dark:text-gray-100 mb-6 text-center">
         Patient Information
       </h2>

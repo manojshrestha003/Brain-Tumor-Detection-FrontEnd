@@ -1,16 +1,84 @@
-# React + Vite
+🧠 Brain Tumor Detection System – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of the Brain Tumor Detection System built using React.js.
+The application allows users to upload brain MRI images and get predictions on the presence and type of tumor using a trained deep learning model running on the backend API.
 
-Currently, two official plugins are available:
+ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Upload MRI images for tumor prediction
 
-## React Compiler
+Real-time response from the backend API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Displays model prediction with confidence score
 
-## Expanding the ESLint configuration
+Responsive and user-friendly UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Fast and lightweight application built with React & Vite
+
+
+
+ Tech Stack
+Technology	Use
+React.js	UI development
+Vite	Development & build tool
+Axios	API request handling
+Tailwind CSS 	UI styling
+JavaScript (ES6+)	Core programming
+Folder Structure
+frontend/
+│── public/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── api/
+│   ├── App.jsx
+│   ├── main.jsx
+│── package.json
+│── README.md
+
+Setup and Installation
+
+Follow these steps to run the frontend locally:
+
+# Clone the repository
+git clone https://github.com/manojshrestha003/Brain-Tumor-Detection-FrontEnd.git
+cd frontend
+
+# Install dependencies
+npm install
+
+# Start the application
+npm run dev
+
+ Backend API Configuration
+
+Update the API endpoint to match your backend server URL inside your Axios request:
+
+Example:
+
+const API_URL = "http://localhost:8000/predict";
+
+ How to Use
+
+Start the backend server
+
+Run the frontend using npm run dev
+
+Upload an MRI image (JPG/PNG)
+
+Click Predict
+
+View prediction result and confidence score
+
+
+
+✅ Project Status
+
+✔️ Completed with core functionality
+🔜 PDF report
+
+📌 Authors
+
+Manoj Shrestha
+Team Members (Prensu Dangol
+Nitish Shakya)
