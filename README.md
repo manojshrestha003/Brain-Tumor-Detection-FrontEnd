@@ -1,9 +1,9 @@
-🧠 Brain Tumor Detection System – Frontend
+# Brain Tumor Detection System – Frontend
 
 This is the frontend of the Brain Tumor Detection System built using React.js.
 The application allows users to upload brain MRI images and get predictions on the presence and type of tumor using a trained deep learning model running on the backend API.
 
- Features
+ # Features
 
 Upload MRI images for tumor prediction
 
@@ -17,26 +17,15 @@ Responsive and user-friendly UI
 
 
 
- Tech Stack
+ # Tech Stack
 Technology	Use
 React.js	UI development
 Vite	Development & build tool
 Axios	API request handling
 Tailwind CSS 	UI styling
 JavaScript (ES6+)	Core programming
-Folder Structure
-frontend/
-│── public/
-│── src/
-│   ├── components/
-│   ├── pages/
-│   ├── api/
-│   ├── App.jsx
-│   ├── main.jsx
-│── package.json
-│── README.md
 
-Setup and Installation
+# Setup and Installation
 
 Follow these steps to run the frontend locally:
 
@@ -72,7 +61,7 @@ View prediction result and confidence score
 
 
 
-✅ Project Status
+ Project Status
 
 ✔️ Completed with core functionality
 🔜 PDF report
@@ -80,5 +69,6 @@ View prediction result and confidence score
 📌 Authors
 
 Manoj Shrestha
+
 Team Members (Prensu Dangol
 Nitish Shakya)
